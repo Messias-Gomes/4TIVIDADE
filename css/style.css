@@ -11,7 +11,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #363636;
+    background-color:#363636;
 }
 header h1{
     font-size: 2.1ch;
@@ -123,6 +123,10 @@ main form button{
     border-radius: 12px;
     margin-top: 10%;
 }
+    main form button :hover{
+
+        color:blue;
+    }
 
 main form .links-container{
     width: 100%;
@@ -188,7 +192,12 @@ main form footer span{
  font-weight: 4%;
  font-size: 0.9em;
 }
-
+@media screen and (max-width: 768px) {
+    
+    main form{
+        width: 90%;
+    }
+}
 
 
 
