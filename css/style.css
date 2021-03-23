@@ -199,6 +199,12 @@ main form footer span{
     }
 }
 
+@media screen and (max-width: 900px) {
+    
+    main form{
+        width: 60%;
+    }
+}
 
 
 
